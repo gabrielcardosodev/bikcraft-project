@@ -25,6 +25,30 @@ p {
   border-color: #fff;
 }
 
+.btn.btn-black:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
 /* header */
 .header {
   position: fixed;
@@ -32,19 +56,20 @@ p {
   width: 100%;
   background: #fec63e;
   padding: 15px 0;
+  z-index: 10;
 }
 
-.header_menu {
+.header-menu {
   text-align: right;
 }
 
-.header_menu ul li {
+.header-menu ul li {
   display: inline-block;
   margin-left: 25px;
   margin-top: 20px;
 }
 
-.header_menu ul li a {
+.header-menu ul li a {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
@@ -54,7 +79,7 @@ p {
   padding: 10px 0;
 }
 
-.header_menu ul li a:hover {
+.header-menu ul li a:hover {
   color: #fff;
 }
 
@@ -103,4 +128,51 @@ p {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/* Products */
+.products {
+  padding: 60px 0;
+}
+
+.products-list li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.products-list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.products-list li h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 4px auto;
+}
+
+.products-list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.products-icon {
+  background: #000;
+  padding: 20px;
+}
+
+.call {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
 }
