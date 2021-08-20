@@ -53,6 +53,7 @@ img {
   background: #000;
   margin: 8px auto;
 }
+
 /* header */
 .header {
   position: fixed;
@@ -87,7 +88,11 @@ img {
   color: #fff;
 }
 
-/* introdução */
+.header-menu ul li a.menu-active {
+  color: #fff;
+}
+
+/* intro */
 .intro {
   width: 100%;
   height: 380px;
@@ -132,6 +137,51 @@ img {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/* intro-inner */
+.intro-inner {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.intro-inner h1 {
+  font-size: 36px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.intro-inner h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+.subtitle-inner {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitle-inner::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0;
 }
 
 /* Products */
