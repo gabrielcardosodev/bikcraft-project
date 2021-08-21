@@ -152,7 +152,7 @@
   line-height: 30px;
 }
 
-.data-email {
+.budget-data span:nth-of-type(even) {
   margin-bottom: 40px;
 }
 
