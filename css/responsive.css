@@ -1,5 +1,25 @@
 /* style for tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* quality */
+  .quality::after {
+    right: 66px;
+  }
+
+  .quality-list li {
+    padding: 0 10px;
+  }
+
+  /* footer */
+  .footer-socials ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 4px;
+  }
+
+  .footer-socials ul li a img {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 /* style for smartphones */
