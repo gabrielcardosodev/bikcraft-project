@@ -347,8 +347,12 @@ img {
   padding-right: 40px;
 }
 
+.footer-history p {
+  font-size: 12.5px;
+}
+
 .footer-contact ul li {
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 20px;
   font-family: Georgia, 'Times New Roman', serif;
 }
