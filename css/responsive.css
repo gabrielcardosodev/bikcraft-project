@@ -28,6 +28,27 @@
     width: 26px;
     height: 26px;
   }
+
+  /* products */
+  .products-item h2 {
+    top: -100px;
+    margin-top: -56px;
+  }
+
+  .products-icon {
+    padding: 41px 0;
+  }
+
+  .products-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .products-info ul li {
+    width: 181px;
+  }
 }
 
 /* style for smartphones */
@@ -103,5 +124,38 @@
   .about-mision ul li {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  /* products */
+  .products-item h2 {
+    top: -35px;
+    margin-top: -68px;
+  }
+
+  .products-icon {
+    padding: 41px 0;
+  }
+
+  .products-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .products-info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  #budget-form {
+    padding-right: 0px;
+  }
+
+  .budget-data ul {
+    padding-right: 0px;
   }
 }
