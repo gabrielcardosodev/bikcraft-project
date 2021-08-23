@@ -61,6 +61,10 @@
     border-color: #fff;
   }
 
+  .header-menu ul li a.menu-active {
+    border-color: #fff;
+  }
+
   /* intro */
   .intro h1 {
     font-size: 36px;
@@ -74,6 +78,11 @@
     background-size: cover;
   }
 
+  /* intro-inner */
+  .intro-inner {
+    margin-top: 0px;
+  }
+
   /* call */
   .call {
     padding-top: 10px;
@@ -82,5 +91,17 @@
   /* quality */
   .quality::after {
     display: none;
+  }
+
+  /* about */
+  .about-mision p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .about-mision ul li {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
