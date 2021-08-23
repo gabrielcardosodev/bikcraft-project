@@ -39,6 +39,10 @@
     padding: 41px 0;
   }
 
+  .products-icon img {
+    margin: 0 auto;
+  }
+
   .products-info p {
     font-size: 14px;
     line-height: 20px;
@@ -136,6 +140,10 @@
     padding: 41px 0;
   }
 
+  .products-icon img {
+    margin: 0 auto;
+  }
+
   .products-info p {
     font-size: 14px;
     line-height: 20px;
@@ -157,5 +165,11 @@
 
   .budget-data ul {
     padding-right: 0px;
+  }
+
+  /* contact */
+  #contact-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
   }
 }
