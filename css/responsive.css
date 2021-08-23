@@ -62,10 +62,25 @@
   }
 
   /* intro */
+  .intro h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
   .intro {
     margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 60px;
     background: url('../img/bg-mobile.jpg') no-repeat left;
     background-size: cover;
+  }
+
+  /* call */
+  .call {
+    padding-top: 10px;
+  }
+
+  /* quality */
+  .quality::after {
+    display: none;
   }
 }
