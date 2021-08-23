@@ -10,6 +10,14 @@
   }
 
   /* footer */
+  .footer-history p {
+    font-size: 0.8rem;
+  }
+
+  .footer-contact ul li {
+    font-size: 0.7rem;
+  }
+
   .footer-socials ul li a {
     border: 3px solid #fec63e;
     display: block;
