@@ -504,143 +504,7 @@ ul {
 .contact-map {
   margin-bottom: 60px;
 }
-@media only screen and (min-width: 788px) and (max-width: 979px) {
-  .quality::after {
-    right: 66px;
-  }
-  .quality-list li {
-    padding: 0 10px;
-  }
-  .products-list li p {
-    padding: 10px 10px 20px;
-  }
-  .footer-history p {
-    font-size: 0.8rem;
-  }
-  .footer-contact ul li {
-    font-size: 0.7rem;
-  }
-  .footer-socials ul li a {
-    border: 3px solid #fec63e;
-    display: block;
-    padding: 4px;
-  }
-  .footer-socials ul li a img {
-    width: 26px;
-    height: 26px;
-  }
-  .products-item h2 {
-    top: -100px;
-    margin-top: -56px;
-  }
-  .products-icon {
-    padding: 41px 0;
-  }
-  .products-icon img {
-    margin: 0 auto;
-  }
-  .products-info p {
-    font-size: 14px;
-    line-height: 20px;
-    height: 122px;
-    padding: 20px 30px;
-  }
-  .products-info ul li {
-    width: 181px;
-    height: 49px;
-  }
-}
-@media only screen and (max-width: 787px) {
-  .header {
-    position: relative;
-    padding-bottom: 0;
-  }
-  .header img {
-    margin: 0 auto 10px;
-  }
-  .header-menu {
-    text-align: center;
-  }
-  .header-menu ul li {
-    margin: 5px;
-  }
-  .header-menu ul li a {
-    border: 4px solid #000;
-    width: 125px;
-    display: block;
-    float: left;
-  }
-  .header-menu ul li a:hover {
-    border-color: #fff;
-  }
-  .header-menu ul li a.menu-active {
-    border-color: #fff;
-  }
-  .intro h1 {
-    font-size: 36px;
-    line-height: 45px;
-  }
-  .intro {
-    margin-top: 0;
-    padding-top: 60px;
-    background: url(../img/bg-mobile.jpg) no-repeat left;
-    background-size: cover;
-  }
-  .intro-inner {
-    margin-top: 0;
-  }
-  .call {
-    padding-top: 10px;
-  }
-  .quality::after {
-    display: none;
-  }
-  .about-mision p {
-    font-size: 14px;
-    line-height: 20px;
-    padding-right: 0;
-  }
-  .about-mision ul li {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .products-item h2 {
-    top: -35px;
-    margin-top: -68px;
-  }
-  .products-icon {
-    padding: 41px 0;
-  }
-  .products-icon img {
-    margin: 0 auto;
-  }
-  .products-info p {
-    font-size: 14px;
-    line-height: 20px;
-    height: auto;
-    padding: 20px 30px;
-  }
-  .products-info ul li {
-    width: 149px;
-    height: 49px;
-    font-size: 14px;
-    line-height: 20px;
-    padding-top: 14px;
-  }
-  #budget-form {
-    padding-right: 0;
-  }
-  .budget-data ul {
-    padding-right: 0;
-  }
-  .copy {
-    padding: 20px 0 0;
-  }
-  #contact-form {
-    padding-right: 0;
-    margin-bottom: 40px;
-  }
-}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -1002,4 +866,142 @@ img {
   opacity: 1;
   transform: none;
   transition: opacity 800ms, transform 800ms;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .quality::after {
+    right: 66px;
+  }
+  .quality-list li {
+    padding: 0 10px;
+  }
+  .products-list li p {
+    padding: 10px 10px 20px;
+  }
+  .footer-history p {
+    font-size: 0.8rem;
+  }
+  .footer-contact ul li {
+    font-size: 0.7rem;
+  }
+  .footer-socials ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 4px;
+  }
+  .footer-socials ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+  .products-item h2 {
+    top: -100px;
+    margin-top: -56px;
+  }
+  .products-icon {
+    padding: 41px 0;
+  }
+  .products-icon img {
+    margin: 0 auto;
+  }
+  .products-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+  .products-info ul li {
+    width: 181px;
+    height: 49px;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .header {
+    position: relative;
+    padding-bottom: 0;
+  }
+  .header img {
+    margin: 0 auto 10px;
+  }
+  .header-menu {
+    text-align: center;
+  }
+  .header-menu ul li {
+    margin: 5px;
+  }
+  .header-menu ul li a {
+    border: 4px solid #000;
+    width: 125px;
+    display: block;
+    float: left;
+  }
+  .header-menu ul li a:hover {
+    border-color: #fff;
+  }
+  .header-menu ul li a.menu-active {
+    border-color: #fff;
+  }
+  .intro h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .intro {
+    margin-top: 0;
+    padding-top: 60px;
+    background: url(../img/bg-mobile.jpg) no-repeat left;
+    background-size: cover;
+  }
+  .intro-inner {
+    margin-top: 0;
+  }
+  .call {
+    padding-top: 10px;
+  }
+  .quality::after {
+    display: none;
+  }
+  .about-mision p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+  .about-mision ul li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .products-item h2 {
+    top: -35px;
+    margin-top: -68px;
+  }
+  .products-icon {
+    padding: 41px 0;
+  }
+  .products-icon img {
+    margin: 0 auto;
+  }
+  .products-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+  }
+  .products-info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+  #budget-form {
+    padding-right: 0;
+  }
+  .budget-data ul {
+    padding-right: 0;
+  }
+  .copy {
+    padding: 20px 0 0;
+  }
+  #contact-form {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
 }
