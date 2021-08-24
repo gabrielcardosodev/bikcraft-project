@@ -9,6 +9,10 @@
     padding: 0 10px;
   }
 
+  .products-list li p {
+    padding: 10px 10px 20px 10px;
+  }
+
   /* footer */
   .footer-history p {
     font-size: 0.8rem;
