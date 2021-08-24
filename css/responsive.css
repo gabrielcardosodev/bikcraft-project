@@ -52,6 +52,7 @@
 
   .products-info ul li {
     width: 181px;
+    height: 49px;
   }
 }
 
@@ -60,7 +61,7 @@
   /* header */
   .header {
     position: relative;
-    padding-bottom: 0;
+    padding-bottom: 0px;
   }
 
   .header img {
@@ -165,6 +166,11 @@
 
   .budget-data ul {
     padding-right: 0px;
+  }
+
+  /* footer */
+  .copy {
+    padding: 20px 0 0 0;
   }
 
   /* contact */
